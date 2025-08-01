@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="Box form">
+            <form action="/action">
+                <h2 id="heading">Registration Form</h2>
+
+                 <label for="name">Enter your full name </label>
+                <input type="text" id="name" name="name" placeholder="Ex- Dipul Raj">
+
+                <label for="email">Enter your email </label>
+                <input type="email" id="email" name="email" placeholder="Ex- dipul@gmail.com">
+
+                <button id="re-btn">Submit</button>
+
+                <p id="message" style="color: red; margin-top: 10px;"></p>
+
+                <p id="msg">Congrats! Your form successfully submitted.</p>
+            </form>
+        </div>
+
+
+        <div class="Box toDo" >
+            <h2 id="heading">ToDo List</h2>
+
+            <label for="task">Enter your daily task</label>
+            <input type="text" id="task" name="task" placeholder="Ex- coding">
+
+            <button id="toDo-btn">Add task</button>
+
+            <ol id="list">
+                <li>Coding <button id="delete-btn">Delete</button> </li>
+                <li>College <button id="delete-btn">Delete</button> </li>
+            </ol>
+        </div>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

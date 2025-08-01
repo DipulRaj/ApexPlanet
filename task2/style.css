@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background: #f5f7fa;
+    color: #1f2937;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.Box{
+    background-color: #ffffff;
+    max-height: 100vh;
+    min-width: 25%;
+    max-width: 45%;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 30px 20px 20px 20px;
+}
+
+#heading{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.Box label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.Box input{
+    display: block;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid green;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.Box #re-btn, #toDo-btn{
+    width: 100%;
+    padding: 12px;
+    background-color: #4f46e5;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.Box #btn:hover{
+    background-color: #533bcb;
+}
+
+.Box ol{
+    padding: 20px;
+}
+
+.Box ol li{
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+#delete-btn{
+    background-color: #e53935;
+    color: #fff;
+    padding: 2.5px;
+    border: none;
+    border-radius: 2px;
+    width: 50px;
+    cursor: pointer;
+}
+
+#msg{
+    margin-top: 30px;
+    color: green;
+    font-size: 17px;
+    display: none;
+}
+
